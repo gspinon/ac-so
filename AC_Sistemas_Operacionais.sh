@@ -24,12 +24,7 @@ cabecalho() {
 }
 
 listar_diretorio() {
-    echo ""
-    read -p "Digite o caminho do diretorio: " CAMINHO
-    echo ""
-    ls "$CAMINHO"
-    echo ""
-    read -p "Pressione Enter para continuar..."
+    
 }
 
 buscar_arquivo() {
@@ -70,7 +65,7 @@ while true; do
     cabecalho
     echo ""
     echo "Menu de Escolhas:"
-    echo "   1) Listar conteudo de um diretorio"
+    echo "   1) Gerenciar diretorios e arquivos"
     echo "   2) Buscar um arquivo"
     echo "   3) Ver conteudo de um arquivo"
     echo "   4) Informacoes do sistema"
